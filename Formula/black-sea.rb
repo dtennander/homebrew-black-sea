@@ -1,22 +1,22 @@
 class BlackSea < Formula
   desc "Black Sea — terminal multiplayer sailing game"
   homepage "https://github.com/dtennander/black-sea"
-  version "1.0.2"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/dtennander/black-sea/releases/download/v1.0.2/black-sea-client-macos-aarch64"
-      sha256 "867df99fddc5a706d74f887aeb20ba7819cc27f7ed4a99074e09d89d2e94ead0"
+      url "https://github.com/dtennander/black-sea/releases/download/v1.1.0/black-sea-client-macos-aarch64"
+      sha256 "ce9fb394bcb9f456a8d8fba63ee707342cc71fe7e7a995868bcc22e538646ff8"
     else
-      url "https://github.com/dtennander/black-sea/releases/download/v1.0.2/black-sea-client-macos-x86_64"
-      sha256 "0b2949837ad026ba0a28b0d812e2a665c3482248b71f33cef90d420a3aab5441"
+      url "https://github.com/dtennander/black-sea/releases/download/v1.1.0/black-sea-client-macos-x86_64"
+      sha256 "4a7dce23edff2b54e876061d0ba7cdfc58c0df592367ed324b9e5933183da656"
     end
   end
 
   on_linux do
-    url "https://github.com/dtennander/black-sea/releases/download/v1.0.2/black-sea-client-linux"
-    sha256 "3888103f453c2493b8feec7aee62eb06609fc44b91b13e2545e0b32df1b496c4"
+    url "https://github.com/dtennander/black-sea/releases/download/v1.1.0/black-sea-client-linux"
+    sha256 "0dc5660d3381872d63b8573ed4ece5024ad165008734a58de65bf93ac6e89d67"
   end
 
   def install
